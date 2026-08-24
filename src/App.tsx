@@ -1,9 +1,11 @@
 import "./App.css";
+import MainLayout from "./layout/MainPage/Mainlayout";
 
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <MainLayout />
+      <h1 className="text-3xl font-bold underline ">Hello</h1>
     </>
   );
 }
