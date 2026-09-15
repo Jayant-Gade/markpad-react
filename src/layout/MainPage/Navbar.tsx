@@ -1,4 +1,4 @@
-import NavbarItem from "./NavbarItems";
+import NavbarItem from "../../components/NavbarItems";
 import "/src/index.css";
 
 export default function Navbar() {
@@ -19,10 +19,10 @@ export default function Navbar() {
         </div>
         <nav>
           <ul className="flex list-none pl-4">
-            <NavbarItem name="Home" href="#" />
+            <NavbarItem name="Home" href="/" />
             <NavbarItem name="About" href="#" />
             <NavbarItem name="Notes" href="#" />
-            <NavbarItem name="Editor" href="#" />
+            <NavbarItem name="Editor" href="/editor" />
           </ul>
         </nav>
       </div>

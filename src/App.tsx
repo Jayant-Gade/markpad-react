@@ -1,3 +1,4 @@
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import MainLayout from "./layout/MainPage/Mainlayout";
 
@@ -9,8 +10,9 @@ function App() {
         className="bg-cover h-screen w-screen absolute bg-center -z-10"
       ></img>
       <div className="h-screen w-screen">
-        <MainLayout />
-        <h1 className="text-3xl font-bold underline ">Hello</h1>
+        <BrowserRouter>
+          <MainLayout />
+        </BrowserRouter>
       </div>
     </div>
   );
