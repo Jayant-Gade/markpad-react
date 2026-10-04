@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className="p-1 rounded-[10px] bg-lime-400/30 bg-opacity-30 shadow-2xl shadow-green-500/0 backdrop-blur-xl ">
       <div className="flex items-center w-full bg-[#40ff006b] bg-opacity-30 backdrop-blur-xl shadow-[0_2px_8px_rgba(0,0,0,0.3)] rounded-[10px]">
-        <div className="rounded-tr-[10px] border-2 border-white/30 shadow-lg w-10 m-2">
+        <div className="inline-block active:translate-y-[1px] active:scale-98 active:duration-100 active:shadow-[0_2px_5px_rgba(0,0,0,0.2)] active:duration-100 duration-300 hover:-translate-y-[1px] hover:shadow-[0_2px_8px_rgba(0,0,0,0.3)] rounded-tr-[10px] border-2 border-white/30 shadow-lg w-10 m-2">
           <a
             href=""
             className="group shadow-[0_0px_2px_rgba(0,0,0,0.3)] transition-all duration-300 ease-in-out hover:-translate-y-[1px] hover:shadow-[0_2px_8px_rgba(0,0,0,0.3)]"
